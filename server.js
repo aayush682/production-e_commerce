@@ -8,7 +8,7 @@ import cors from "cors";
 import categoryRoutes from './routes/categoryRoutes.js';
 import productRoutes from './routes/productRoutes.js';
 import path from "Path";
-import { fileURLTopath } from 'url';
+import { fileURLToPath } from 'url';
 // configure enivironmental variables
 dotenv.config();
 // DataBase connection
