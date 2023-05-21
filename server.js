@@ -7,14 +7,14 @@ import authRoutes from './routes/authRoutes.js';
 import cors from "cors";
 import categoryRoutes from './routes/categoryRoutes.js';
 import productRoutes from './routes/productRoutes.js';
-import path from "path";
+import path from "Path";
 import { fileURLTopath } from 'url';
 // configure enivironmental variables
 dotenv.config();
 // DataBase connection
 connectDB();
 //esmodeule fix
-const __filename = fileURLTopath(import.meta.url);
+const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 // rest object
 const app = express();
